@@ -1,2 +1,37 @@
 .DS_store
 .idea
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# project ignore, all the file in this two folder will be ignore
+/Task/Data/cloth3d_tools_smpl
+/output
+/cache
+/.idea
+# netweight
+*.pkl
+# pyc file is the compiled file, ignore
+*.pyc
+# PDF file is the debug file, ignore
+*.pdf
+# ttf file is the txt style file, ignore
+*.ttf
+# ply is the mesh, ignore
+*.ply
+# c++file, ignore
+*.pdb
+*.lib
+*.exp
