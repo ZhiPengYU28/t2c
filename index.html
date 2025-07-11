@@ -132,31 +132,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            In the age of AIGC, the creation process is increasingly automated. Generating vivid characters with clothing and motions according to scripts or novels is no exception. 
+            Unfortunately, the diversity of fabric topologies, the complexity of fabric layering, and the flexibility of fabric motion make most approaches only applicable to motion generation for characters in undressing or tight-fitting clothing. 
+            This paper introduces a novel approach named \textbf{T2C}, which employs a multilayered clothing representation and a physics-based clothing animation paradigm to generate text-controlled Clothed 4D Humans, expanding the boundaries of the aforementioned issues. 
+            The hierarchical representation of clothing utilizes Fourier spherical mapping to define the geometric information of garments within a standard pose space, mapping it onto several two-dimensional frequency domain subspaces. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            The motion of clothing in tandem with the human body is realized through a hybrid forward dynamic solution, where the internal virtual mechanic's parameters driving the clothing are learned from text features. 
+            A series of qualitative and quantitative experiments reveal that T2C can generate dynamic clothing with a sense of layering, realistic details, and rich textures.
           </p>
         </div>
       </div>
@@ -168,7 +151,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+          <iframe src="https://youtu.be/Wk1AcdEOeRI?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
